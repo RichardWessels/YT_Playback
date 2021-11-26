@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+	"name": "YT_Playback_Control",
+	"version": "1.4.2",
+
+	"description": "Allows for easy playback control on YouTube.",
+
+	"icons": {
+		"48": "icons/icon-48.png"
+	},
+
+	"options_ui": {
+		"page": "options.html",
+		"browser_style": true
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.youtube.com/watch*", "*://*.vimeo.com/*"],
+			"js": ["main.js"],
+			"run_at": "document_idle"
+		}
+	]
+}
