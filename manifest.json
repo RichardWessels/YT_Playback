@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "YT_Playback_Control",
-	"version": "1.4.2",
+	"version": "1.5",
 
 	"description": "Allows for easy playback control on YouTube.",
 
