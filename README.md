@@ -19,6 +19,5 @@ A web extension for controlling YouTube playback using numpad keys.
   - \* = re-fetch video
   - / = skip video
   - . = changes to previous playback speed
-- For 3x, 4x, 5x, and -1x, the key must be held down for the speed to change. Once the key is lifted the playback speed reverts to the its speed prior to the key being pressed down.
+- For 3x, 4x, 5x, and reverse, the key must be held down for the speed to change. Once the key is lifted the playback speed reverts to the its speed prior to the key being pressed down.
 - The shortcuts may not function if numlock is turned off.
-
