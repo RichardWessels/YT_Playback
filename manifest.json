@@ -5,7 +5,7 @@
     "description": "Control YouTube and Vimeo playback using numpad shortcuts.",
     "browser_specific_settings": {
         "gecko": {
-            "id": "yt-playback@richardwessels.github.io",
+            "id": "{94a6a911-2069-4915-b893-72b30c54999f}",
             "data_collection_permissions": {
                 "required": ["none"]
             }
