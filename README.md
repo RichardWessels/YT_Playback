@@ -1,23 +1,31 @@
 # YT Playback
 
-A web extension for controlling YouTube playback using numpad keys.
+## Install
 
-### Usage:
+Download or clone this repository, then:
 
-- Shortcuts:
-  - 0 = 1x
-  - 1 = 0.25x
-  - 2 = 0.5x
-  - 3 = 0.75x
-  - 4 = 1.25x
-  - 5 = 1.5x
-  - 6 = 2x
-  - 7 = 3x
-  - 8 = 4x
-  - 9 = 5x
-  - \- = plays in reverse at previous playback speed
-  - \* = re-fetch video
-  - / = skip video
-  - . = changes to previous playback speed
-- For 3x, 4x, 5x, and reverse, the key must be held down for the speed to change. Once the key is lifted the playback speed reverts to the its speed prior to the key being pressed down.
-- The shortcuts may not function if numlock is turned off.
+- **Chrome:** Open `chrome://extensions`, enable **Developer mode**, click **Load unpacked**, and select this folder.
+- **Firefox:** Open `about:debugging#/runtime/this-firefox`, click **Load Temporary Add-on**, and select `manifest.json`. Reinstall after restarting Firefox.
+
+Reload your YouTube or Vimeo tabs.
+
+## Shortcuts
+
+| Numpad | Without a numpad | Action |
+| --- | --- | --- |
+| `0` | `Alt + 0` | 1× |
+| `1` | `Alt + 1` | 0.25× |
+| `2` | `Alt + 2` | 0.5× |
+| `3` | `Alt + 3` | 0.75× |
+| `4` | `Alt + 4` | 1.25× |
+| `5` | `Alt + 5` | 1.5× |
+| `6` | `Alt + 6` | 2× |
+| Hold `7` | Hold `Alt + 7` | Temporary 3× |
+| Hold `8` | Hold `Alt + 8` | Temporary 4× |
+| Hold `9` | Hold `Alt + 9` | Temporary 5× |
+| Hold `-` | Hold `Alt + -` | Reverse |
+| `.` | `Alt + .` | Previous speed |
+| `/` | `Alt + /` | Seek to end |
+| `*` | — | Refresh video selection |
+
+Release held shortcuts to restore playback. On macOS, use Option for Alt.
